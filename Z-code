@@ -99,14 +99,12 @@ def z_score(x, mu, sigma):
     Returns the z-score of x
     """
     
-    # Participating group member names go in this comment
-    ####################
-    # Travis Keever    #
-    # Dawson Schroeder #
-    #                  #
-    ####################
+    # Participating group member names go in this comment: Travis Keever, Dawson Shroeder
+  
     # Your code goes between this comment and the return statement
     
-    return (x-mu)/sigma # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+    return (x-mu)/sigma
+    
+    # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
 
 test_z_score_function()    

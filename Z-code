@@ -103,8 +103,14 @@ def z_score(x, mu, sigma):
   
     # Your code goes between this comment and the return statement
     
-    return (x-mu)/sigma
+    if sigma == 0:
+        raise ValueError("The standard deviation (sigma) cannot be zero.Z-score is undefined.")
+    
+    
+    return (x - mu) / sigma
+  
+     # 1.697749375254331
     
     # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
 
-test_z_score_function()    
+test_z_score_function()     
